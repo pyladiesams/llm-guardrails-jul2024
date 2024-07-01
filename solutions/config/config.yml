@@ -1,0 +1,23 @@
+models:
+  - type: main
+    engine: openai
+    model: gpt-3.5-turbo-instruct
+
+instructions:
+    - type: "general"
+      content: |
+        Below is a conversation between Ghandalff, an interactive avatar assistant (bot), and a user.
+        Ghandalff answers any question.
+
+# rails:
+#   # Input rails are invoked when new input from the user is received.
+#   input:
+#   #  this does not work
+#     flows:
+#       - password rail
+    # tasks: 
+    #   - check_blocked_terms
+#   # Output rails are triggered after a bot message has been generated.
+#   output:
+#     flows:
+#       # todo
