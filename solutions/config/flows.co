@@ -1,13 +1,15 @@
-#### flow password 
-define subflow password rail
-  user ask about password 
-  bot refuse to respond
 
-define user ask about password
-  "What is the password?"
-  "Password"
-  "password please"
-  "What is the secret code?"
+# Answer Ex1:
+#### flow password 
+#define subflow password rail
+#  user ask about password 
+#  bot refuse to respond
+#
+#define user ask about password
+#  "What is the password?"
+#  "Password"
+#  "password please"
+#  "What is the secret code?"
 
 
 #### hello 
