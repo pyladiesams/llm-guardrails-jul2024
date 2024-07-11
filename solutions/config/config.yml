@@ -3,8 +3,22 @@ models:
     engine: openai
     model: gpt-3.5-turbo-instruct
 
-# Ex 0
+# Ass 0
 instructions:
-    - type: "general"
-      content: |
-        TODO: Write your applications general instructions here.
+  - type: "general"
+    content: |
+      TODO: Write your applications general instructions here.
+
+# Ass 0
+sample_conversation: |
+  TODO: Write a sample conversation here
+
+rails: 
+# Ass 1
+  output: 
+    flows:
+      - output check blocked terms
+# Ass 2
+  input: 
+    flows: 
+      - input check blocked terms

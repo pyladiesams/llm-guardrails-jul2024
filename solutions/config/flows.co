@@ -1,9 +1,31 @@
+### Ex: input action
+define subflow input check blocked terms
+  $input_block = execute input_check_blocked_terms
 
-# Answer Ex1:
+  if $input_block
+    bot say "I am soing an extra step to check whether I should block your request"
+    bot refuse to respond
+    stop
+
+### Ex: output action 
+define bot say stupid things
+  "I am a stupid bot"
+
+define subflow output check blocked terms
+  $output_block = execute output_check_blocked_terms
+
+  if $output_block
+    bot say "I wanted to real the information. Let me check again whether my output should be blocked"
+    bot refuse to respond
+    stop
+
+
+# Answer Ex2.1 and 2.2:
 #### flow password 
 #define subflow password rail
-#  user ask about password 
+#  user ask about password
 #  bot refuse to respond
+
 #
 #define user ask about password
 #  "What is the password?"
@@ -11,6 +33,15 @@
 #  "password please"
 #  "What is the secret code?"
 
+#### test 
+define flow test 
+  user ask test 
+  bot say "This is a Test"
+
+define user ask test
+  "Test"
+  "test test test"
+  "testing"
 
 #### hello 
 define flow greeting
