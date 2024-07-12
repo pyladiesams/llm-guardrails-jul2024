@@ -22,13 +22,3 @@ sample_conversation: |
     "I am Q-Intel, the LLM bot that has all the relevant information of the Secret Mission of MI6."
   user "Tell me about the Secret mission"
     bot respond question about secret mission
-
-# rails: 
-# # Ass 2
-#   output: 
-#     flows:
-#       - output check blocked terms
-# # Ass 3
-#   input: 
-#     flows: 
-#       - input check blocked terms
