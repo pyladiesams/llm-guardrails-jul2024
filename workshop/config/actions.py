@@ -1,9 +1,6 @@
-# some custom output rail 
 from typing import Optional
 from nemoguardrails.actions import action
-
-# note: functions can be async if they're making third party calls. Our cases are simple. 
-
+# note: functions can be async if they're making third party calls.
 
 @action()
 async def custom_test_action():
@@ -20,6 +17,7 @@ async def output_check_blocked_terms(context: Optional[dict] = None):
         You should decide on the forbidden words yourself."""
 
     """ Answer: make sure you use check lower and uppercase scenario's """
+    
     return None
 
 
