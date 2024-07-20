@@ -21,4 +21,4 @@ Do not forget to indicate Python version and any other tools
 Re-watch [this YouTube stream](https://www.youtube.com/live/1ajltQcEEzA)
 
 ## Credits
-This workshop was set up by @pyladiesams and @iris-luden
+This workshop was set up by @pyladiesams, @iris-luden and @shayorshay.
