@@ -1,6 +1,6 @@
 
 # LLM Guardrails
-### Presentation: [Presentation_name](workshop/Presentation_template.pptx)
+### Presentation: [Introduction to NeMo Guardrails](workshop/Pyladies_Amsterdam_24-07-2024.pdf)
 
 ## Workshop description
 “A car for a dollar” – believe it or not, someone managed to convince a customer service chatbot to sell a car at this price through clever prompting. Such incidents are part of a growing wave of attacks as LLMs become integrated into diverse applications. Want to learn how to prevent these kinds of exploits in your own application?
