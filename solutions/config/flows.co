@@ -21,7 +21,7 @@ define bot ask assist
 #  $output_block = execute output_check_blocked_terms
 #
 #  if $output_block
-#    bot say "I wanted to real the information. Let me check again whether my output should be blocked"
+#    bot say "I wanted to read the information. Let me check again whether my output should be blocked"
 #    bot refuse to respond
 #    stop
 

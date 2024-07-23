@@ -16,7 +16,7 @@ async def output_check_blocked_terms(context: Optional[dict] = None):
     """TODO: write python code that will return True whenever the bot response contains a forbidden word. 
         You should decide on the forbidden words yourself."""
 
-    """ Answer: make sure you use check lower and uppercase scenario's """
+    """ Answer: make sure you use check lower and uppercase scenarios """
     
     return None
 
