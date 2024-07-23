@@ -1,5 +1,6 @@
 
 # LLM Guardrails
+
 ### Presentation: [Introduction to NeMo Guardrails](workshop/Pyladies_Amsterdam_24-07-2024.pdf)
 
 ## Workshop description
@@ -10,12 +11,29 @@ Join us for an interactive workshop where we’ll dive into the world of LLM Gua
 This event is perfect for engineers, data scientists, and AI enthusiasts eager to up their Gen AI game. Don’t miss this opportunity to expand your knowledge and network with like-minded professionals!
 
 ## Requirements
-Do not forget to indicate Python version and any other tools
-+ add requirements.txt or conda.yml or docker image or Binder/Google Collab link
+
+```ruby
+python -m venv pyladies_venv
+source pyladies_venv/bin/activate
+```
+
+Install the required packages
+
+```
+pip install -r requirements.txt
+```
+
+To install the notebook kernel for the venv, run:
+```
+ipython kernel install --user --name=pyladies_venv
+```
 
 ## Usage
-* Clone the repository
-* Start { TOOL } and navigate to the workshop folder
+* Clone the repository:
+  `git clone https://github.com/pyladiesams/llm-guardrails-jul2024.git`
+
+* From the root folder, start your notebook by running `jupyter notebook` and navigate to the workshop folder. 
+* Start with Challenge 1!
 
 ## Video record
 Re-watch [this YouTube stream](https://www.youtube.com/live/1ajltQcEEzA)
