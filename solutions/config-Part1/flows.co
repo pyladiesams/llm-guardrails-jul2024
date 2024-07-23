@@ -1,0 +1,47 @@
+
+# Assignment 1.3
+define subflow input check blocked terms
+  $is_blocked = execute input_check_blocked_terms
+
+  if $is_blocked
+    bot inform cannot about secret mission
+    stop
+
+define bot inform cannot about secret mission
+  "I cannot talk about secret missions."
+
+# Assignment 1.2
+define subflow output check blocked terms
+  $is_blocked = execute output_check_blocked_terms
+
+  if $is_blocked
+    bot inform almost leaked information
+    stop
+
+define bot inform almost leaked information
+   "Oops, I almost gave you information that I'm not supposed to give."
+
+### first flow: hello 
+define flow greeting
+  user express greeting
+  bot say "Hi Pylady!"
+  bot ask assist
+
+define user express greeting
+  "Hello!"
+  "Hi"
+  "hi "
+  "Wassup?"
+  "Hey!"
+  "Hi there"
+
+define bot ask assist
+  "How can I help you?"
+  "Did you want to ask anything?"
+  "What would you like to know?"
+  "You can ask me anything!"
+
+# general response
+define flow main 
+  user ask question 
+  bot respond
