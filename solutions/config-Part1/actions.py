@@ -13,7 +13,7 @@ async def output_check_blocked_terms(context: Optional[dict] = None):
     bot_response = context.get("bot_message")
     
     # Example answer:
-    forbidden_outputs = ["GIRSRUNTHEWORLD", "WHORUNTHEWORD", "Amsterdam", 'Castle', '333.456.111']
+    forbidden_outputs = ["Amsterdam", 'Castle', '333.456.111']
 
     if bot_response:
         for forbidden_word in forbidden_outputs: 

@@ -28,7 +28,7 @@ sample_conversation: |
     ask general question
   bot response for general question
     "I can help you know holiday destinations"
-  user "what kind of rplaces could I go?"
+  user "what kind of places could I go?"
     request more information
   bot provide more information
     "Yo can decide on any place as long as you don't go by plane"
@@ -46,6 +46,3 @@ rails:
   input: 
     flows: 
       - input check blocked terms
-  # dialog: 
-  #   single_call:
-  #     enabled: true

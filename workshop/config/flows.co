@@ -1,8 +1,11 @@
 ### first flow: hello 
 define flow greeting
   user express greeting
-  bot say "Hi Pylady!"
+  bot give custom response
   bot ask assist
+
+define bot give custom response
+  "Hi Pylady!"
 
 define user express greeting
   "Hello!"
