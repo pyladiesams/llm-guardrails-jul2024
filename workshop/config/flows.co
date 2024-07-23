@@ -15,3 +15,8 @@ define bot ask assist
   "How can I help you?"
   "Did you want to ask anything?"
   "What would you like to know?"
+
+# general bot response
+define flow main 
+  user ask question 
+  bot respond
