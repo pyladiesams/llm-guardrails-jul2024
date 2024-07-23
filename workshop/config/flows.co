@@ -1,0 +1,17 @@
+### first flow: hello 
+define flow greeting
+  user express greeting
+  bot say "Hi Pylady!"
+  bot ask assist
+
+define user express greeting
+  "Hello!"
+  "Hi"
+  "Wassup?"
+  "Hey!"
+  "Hi there"
+
+define bot ask assist
+  "How can I help you?"
+  "Did you want to ask anything?"
+  "What would you like to know?"

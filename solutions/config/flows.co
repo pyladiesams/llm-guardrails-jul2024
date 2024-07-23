@@ -1,0 +1,58 @@
+#### hello 
+define flow greeting
+  user express greeting
+  bot say "Hi Pylady!"
+  bot ask assist
+
+define user express greeting
+  "Hello!"
+  "Hi"
+  "Wassup?"
+  "Hey!"
+  "Hi there"
+
+define bot ask assist
+  "How can I help you?"
+  "Did you want to ask anything?"
+  "What would you like to know?"
+
+### Ass 2: output action 
+#define subflow output check blocked terms
+#  $output_block = execute output_check_blocked_terms
+#
+#  if $output_block
+#    bot say "I wanted to read the information. Let me check again whether my output should be blocked"
+#    bot refuse to respond
+#    stop
+
+
+### Ass 3: input action
+#define subflow input check blocked terms
+#  $input_block = execute input_check_blocked_terms
+#
+#  if $input_block
+#    bot say "I am doing an extra step to check whether I should block your request"
+#    bot refuse to respond
+#    stop
+
+# Answer Ass2.1 and 2.2:
+#### flow password 
+#define subflow password rail
+#  user ask about password
+#  bot refuse to respond
+
+#define user ask about password
+#  "What is the password?"
+#  "Password"
+#  "password please"
+#  "What is the secret code?"
+
+#### test 
+#define flow test 
+#  user ask test 
+#  bot say "This is a Test"
+
+#define user ask test
+#  "Test"
+#  "test test test"
+#  "testing"
