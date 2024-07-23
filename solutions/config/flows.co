@@ -31,7 +31,7 @@ define bot ask assist
 #  $input_block = execute input_check_blocked_terms
 #
 #  if $input_block
-#    bot say "I am soing an extra step to check whether I should block your request"
+#    bot say "I am doing an extra step to check whether I should block your request"
 #    bot refuse to respond
 #    stop
 
