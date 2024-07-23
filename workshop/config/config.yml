@@ -1,8 +1,12 @@
 models:
   - type: main
-    engine: openai
-    model: gpt-3.5-turbo-instruct
-
+    engine: azure
+    model: gpt-35-turbo-instruct
+    parameters:
+      azure_endpoint: https://pyladies2.openai.azure.com/
+      api_version:  2024-05-01-preview
+      deployment_name: pyladies-gpt-35-turbo-instruct
+    
 # Assignment 1: TODO write general instructions here.
 instructions:
   - type: "general"
